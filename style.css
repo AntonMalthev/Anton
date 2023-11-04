@@ -1,0 +1,36 @@
+body {
+  font-family: sans-serif;
+}
+header{
+background-color: #46ABA5;
+height: 100px;
+}
+h1{
+  text-align: center;
+  color: #000000;
+  padding-top: 40px;
+  font-size: 64px;
+}
+nav{
+display: flex; 
+justify-content: space-around;  
+}
+a{
+  text-decoration: none;
+  font-size: 30px;
+  color: #000000;
+  border-radius: 20px;
+  padding: 5px;
+  margin: 10px;
+}
+a:hover{
+  background-color: darkblue;
+  box-shadow: 3px 5px 5px 0 orangered;
+  transition: 3s linear;
+}
+main{
+background-color: #46ABA5;
+}
+footer{
+background-color: #46ABA5;
+}
